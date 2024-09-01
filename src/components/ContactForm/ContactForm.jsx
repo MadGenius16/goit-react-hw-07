@@ -2,7 +2,7 @@ import {ErrorMessage, Formik, Form, Field } from 'formik';
 import css from './ContactForm.module.css'
 import * as Yup from "yup";
 import { useDispatch } from 'react-redux';
-import { addContact } from '../../redux/contactsSlice';
+import { addContact } from '../../redux/contactsOps';
 
 const phoneRegExp = /^[0-9]{3}-[0-9]{2}-[0-9]{2}$/;
 
